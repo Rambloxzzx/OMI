@@ -2,7 +2,7 @@
 
 using namespace std;
 ///
-/// Este programa tiene como objetivo ense馻r a usar el lenguaje C++
+/// Este programa tiene como objetivo ense帽ar a usar el lenguaje C++
 ///
 /// Es importante tomar en cuenta que:
 ///
@@ -34,10 +34,10 @@ void DosNumeros(){
     cin >> a >> b; /// lee del teclado 2 numeros a y b
     ///
     /// if = si de karel la condicion va en parentesis y
-    /// los operadores de comparaci髇 son:
+    /// los operadores de comparaci贸n son:
     ///     == igual, != diferente, > mayor que >= mayor o igual que
     ///     < menor que, <= menor igualque
-    /// los conectores l骻icos son
+    /// los conectores l贸gicos son
     ///     && es "y"   y || es "o"
     ///
     if (a>b){
@@ -65,7 +65,7 @@ void DosNumeros(){
 ///
 /// Funcion que calcula el area de un rectangulo recibe dos parametros
 /// y estos son las variables locales (dentro de la funcion Rectangulo)
-/// Una funci髇 a  diferencia de un procedimento, debe devolver un valor
+/// Una funci贸n a  diferencia de un procedimento, debe devolver un valor
 /// en este caso se indica que el valor que devuelve es de tipo int
 ///
 int Rectangulo (int b, int a){
@@ -83,10 +83,10 @@ int Rectangulo (int b, int a){
 int main()
 {
      /// variables locales son las que se definen dentro de un
-     /// prodecimiento o funci髇 y solo se pueden utilizar dentro del mismo
+     /// prodecimiento o funci贸n y solo se pueden utilizar dentro del mismo
      /// esta variables se deben inicializar
      ///
-     /// Se llama un procedimiento que va a leer dos n鷐eros y nos da su relacion
+     /// Se llama un procedimiento que va a leer dos n煤meros y nos da su relacion
      ///
      DosNumeros();
      ///
