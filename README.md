@@ -1,2 +1,2 @@
-# OMI-
-Códigos OMI C++
+# OMI
+Códigos OMI K++ y C++
