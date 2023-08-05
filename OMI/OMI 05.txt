@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <math.h>
+
+using namespace std;
+  long long int i = 0;
+  long long int s = 0;
+  long long int Am = 0;
+  long long int p = 0;
+  long long int n = 0;
+  long long int e = 0;
+
+int main() {
+  cin >> Am;
+  cin >> n;
+  while(i<n) {
+    i = i+1;
+    cin >> p;
+    if(p>Am) {
+      e = p-Am;
+      s = s+e;
+
+    } //end if
+
+  } // end while
+  cout << s;
+  return 0;
+} //end main
